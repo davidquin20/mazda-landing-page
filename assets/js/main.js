@@ -261,6 +261,17 @@
   /**
    * Portfolio details slider
    */
+  
+  const slider = document.querySelector("#slider");
+  const canvas = document.querySelector("#canvas");
+
+  slider.addEventListener('input', handleInputSlider);
+
+  function handleInputSlider(){
+    console.log(this.value);
+  }
+  console.log(slider);
+
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
