@@ -1257,6 +1257,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.input-rotate {
+  /* width: 855px; */
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
